@@ -27,7 +27,6 @@ router.post('/create-tokens', async(req, res, next) => {
     
     const { code } = req.body;
     const { tokens } = await oauth2Client.getToken(code);
-    //lowdb.defaults({}).write();
     res.send(tokens);
 
   } catch(error) {
