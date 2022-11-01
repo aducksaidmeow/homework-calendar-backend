@@ -7,7 +7,7 @@ const GOOGLE_CLIENT_SECRET = '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';
 const oauth2Client = new google.auth.OAuth2(
   GOOGLE_CLIENT_ID,
   GOOGLE_CLIENT_SECRET,
-  'https://homework-calendar-frontend.onrender.com/'
+  'https://homework-calendar-frontend.onrender.com'
 )
 
 // firebase admin
